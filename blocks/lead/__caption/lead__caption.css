@@ -5,24 +5,25 @@
     line-height: 14px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    padding: 0px 16px;
-    margin: 8px 0px 0px 0px;
+    padding: 0 16px;
+    margin: 8px 0 0 0;
+    align-self: flex-start;
 }
 
 @media only screen and (min-width: 768px) {
     .lead__caption {
-        padding: 0px 24px;
+        padding: 0 24px;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     .lead__caption {
-        padding: 0px 48px;
+        padding: 0 48px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
     .lead__caption {
-        padding: 0px 148px;
+        padding: 0 148px;
     }
 }

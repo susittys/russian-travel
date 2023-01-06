@@ -11,6 +11,7 @@
     .footer__menu {
         flex-direction: row;
         padding: 0 0 24px 0;
+        gap: 18px;
     }
 }
 

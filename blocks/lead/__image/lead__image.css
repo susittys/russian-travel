@@ -1,6 +1,5 @@
 .lead__image {
-    /*background: url(../../../images/lead_image.jpg) no-repeat;*/
-    /*background-size: cover;*/
+    width: 100%;
     object-fit: cover;
     object-position: bottom;
     margin: 40px 0 0 0;
@@ -8,14 +7,22 @@
     min-height: 200px;
 }
 
+@media only screen and (min-width: 768px) {
+    .lead__image {
+        margin-top: 56px;
+    }
+}
+
 @media only screen and (min-width: 1024px) {
     .lead__image {
-        margin: 40px 48px 0 48px;
+        width: 928px;
+        margin: 56px 48px 0 48px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
     .lead__image {
-        margin: 40px 148px 0 148px;
+        width: 984px;
+        margin: 64px 148px 0 148px;
     }
 }
