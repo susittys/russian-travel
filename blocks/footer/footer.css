@@ -1,0 +1,20 @@
+.footer {
+    padding: 0px 16px;
+    margin: 64px 0px 0px 0px;
+}
+
+@media only screen and (min-width: 767px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 24px;
+        margin-top: 88px;
+    }
+}
+
+@media only screen and (min-width: 1023px) {
+    .footer {
+        margin-top: 92px;
+        padding: 0px 48px;
+    }
+}

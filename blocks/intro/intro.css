@@ -1,0 +1,25 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px;
+    margin: 64px 0px 0px 0px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .intro {
+        padding: 0px 24px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .intro {
+        padding: 0px 286px 0px 48px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .intro {
+        padding: 0px 442px 0px 148px;
+    }
+}
