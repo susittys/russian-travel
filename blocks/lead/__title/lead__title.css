@@ -4,7 +4,7 @@
     max-height: 200px;
     font-weight: 900;
     font-size: calc(40px + 40 * ((100vw - 320px) / 320));
-    line-height: calc(40px + 40 * ((100vw - 320px) / 320));
+    line-height: calc(44px + 44 * ((100vw - 320px) / 320));
     text-align: center;
     margin: 48px 0 0 0;
     padding: 0;
